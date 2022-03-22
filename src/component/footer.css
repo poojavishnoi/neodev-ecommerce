@@ -1,0 +1,30 @@
+.footer_container h3 {
+  margin-top: 2rem;
+}
+
+.footer_container {
+  margin-top: 3rem;
+  border-top: 1px solid grey;
+}
+
+
+.footer_icons img {
+  width: 2rem;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_container{
+    font-size: 0.7rem;
+  }
+  .footer_container h3 {
+    margin-top: 1rem;
+  }
+
+  .footer_icons img {
+    width: 1rem;
+    margin: 0.5rem;
+  }
+  
+
+}
